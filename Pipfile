@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+psycopg2 = "*"
+flask-cors = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+flask-script = "*"
+flask-migrate = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "2.7"
